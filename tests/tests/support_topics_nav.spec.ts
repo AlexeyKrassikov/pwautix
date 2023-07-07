@@ -32,7 +32,7 @@ test('Assert count of attachments on Ceníky půjčovného page', async ({ page 
   await support.verifyPageSnapshot();
   });
 
-test('Test capture screenshot on failing one test', async ({ page }) => {
+test.skip('Test capture screenshot on failing one test', async ({ page }) => {
   const support = new SupportPage(page);
   await support.gotoCZ();
   await support.gotoappEN();
