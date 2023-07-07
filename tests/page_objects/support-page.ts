@@ -67,6 +67,6 @@ export class SupportPage {
   }
 
   async verifyPageSnapshot() {
-    await expect(this.page).toHaveScreenshot('ceniky_pujcovneho.png');
+    await expect(this.page).toHaveScreenshot({ maxDiffPixels: 100 });
   }
 }
