@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 22,
+  "agentName": "ALEXSMK",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelines.actions.githubusercontent.com/JhHOOLnUQFu5QmFksZxsb0TtAXZ7aiFcPsfD5P7c651mH1JbJw",
+  "gitHubUrl": "https://github.com/AlexeyKrassikov/pwautix",
+  "workFolder": "_work"
+}
